@@ -23,6 +23,7 @@
         height:300px;
     }
     .colup{
+        width:100%;
         height:300x;
     }
 </style>
@@ -40,7 +41,7 @@
         
         echo "<div class='col-3 gg'>";
         echo "<div class='row rowup'>";
-        echo "<div class='col colup'>";
+        echo "<div class='colup'>";
         echo "<img src=".$music->album->images[0]->url.">";  
         echo "</div>";
         echo "</div>";
